@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4" *ngFor="let art of filterArticles">
+            <div class="card" style="width: 18rem;">
+                <img src="{{art.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">{{art.title}}</h4>
+                    <p class="card-text">{{art.content}}</p>
+                </div>
+                <app-likes></app-likes>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>

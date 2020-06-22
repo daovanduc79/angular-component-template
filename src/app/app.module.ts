@@ -5,12 +5,16 @@ import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { LikesComponent } from './likes/likes.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ArticleListComponent } from './article-list/article-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountdownTimerComponent,
-    LikesComponent
+    LikesComponent,
+    NavbarComponent,
+    ArticleListComponent,
   ],
   imports: [
     BrowserModule,
